@@ -1,0 +1,88 @@
+/* src/components/About.css */
+
+.about-section {
+  text-align: left;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding: 2rem;
+}
+
+.about-section h1 {
+  font-size: 2.5rem;
+}
+
+.about-line {
+  width: auto;
+  height: 3px;
+  background: white;
+  margin: 0.5rem auto;
+}
+
+.about-section p {
+  font-size: 1rem;
+  color: #666;
+  margin: 1rem 0;
+}
+
+.about-details {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.about-details ul {
+  list-style: none;
+  margin: 0 10rem;
+  padding: 0;
+}
+
+.about-details li {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+  color: #333;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.stat {
+  margin: 0 10rem;
+}
+
+.stat h2 {
+  font-size: 2.5rem;
+  color: rgb(150, 2, 2);
+  margin: 0;
+}
+
+.stat p {
+  font-size: 1rem;
+  color: #333;
+  margin: 0;
+}
+
+.contact-us {
+  background: linear-gradient(to right, #c1bfbf, #676767, #c1bfbf);
+  padding: 1rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.contact-us p {
+  font-size: 1.2rem;
+  margin: 0;
+  color: white;
+}
+
+.contact-us button {
+  background: none;
+  border: 1px solid white;
+  color: white;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}

@@ -1,0 +1,40 @@
+/* src/components/FeatureSection.css */
+
+.feature-section {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-right: 100px;
+  background: #fff;
+  box-shadow: 0 4px 6px #757070e1;
+}
+
+.feature-section img {
+  width: 40%;
+  height: auto;
+}
+
+.feature-content {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.feature-content p {
+  margin-bottom: 1rem;
+}
+
+.more-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: #ff5252;
+  background: none;
+  border: 1px solid #ff5252;
+  border-radius: 5px;
+  cursor: pointer;
+}

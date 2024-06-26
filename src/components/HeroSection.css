@@ -1,0 +1,36 @@
+/* src/components/HeroSection.css */
+
+.hero-section {
+  background: url("../images/hero-background.jpg") no-repeat center center/cover; /* Adjust this path */
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.explore-button {
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #ff5252;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.explore-button:hover {
+  color: #ff5252;
+  background-color: #fff;
+}

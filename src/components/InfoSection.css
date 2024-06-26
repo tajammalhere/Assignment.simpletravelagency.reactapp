@@ -1,0 +1,24 @@
+/* src/components/InfoSection.css */
+
+.info-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.info-box {
+  text-align: center;
+  padding: 60px;
+}
+
+.info-box h3 {
+  margin: 1rem 0;
+}
+.info1 {
+  background-color: #001018;
+  color: aliceblue;
+}
+.info2 {
+  background-color: #fff;
+}

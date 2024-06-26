@@ -1,0 +1,13 @@
+.appcs {
+  background-color: rgb(190, 190, 190);
+}
+/* Hide scrollbar for all browsers */
+body {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer 10+ */
+}
+
+/* Hide scrollbar for WebKit-based browsers */
+body::-webkit-scrollbar {
+  display: none;
+}
