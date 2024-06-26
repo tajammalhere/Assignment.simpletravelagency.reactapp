@@ -12,7 +12,7 @@ check the surge deployed version of this project
 - [Deployment](#deployment)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
-- [Technologies Used](#Technologies_Used)
+- [Technologies](#Technologies)
 
 ## Introduction
 
@@ -47,7 +47,21 @@ npm install
     ```bash
     surge ./build your-unique-domain.surge.sh
     ```
+    
+### Issues you may face
+#### Running scripts is disabled on your system
+1. **Right-click on the Start button (or Press the Windows key + X) and select "Windows PowerShell (Run as admin.)"**
 
+2. **Run the following command to set the execution policy to unrestricted**
+    ```bash
+    Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+    ```
+3. **Press "Y" to confirm the change.**
+4. **Now, you can run the surge command again:**
+    ```bash
+    surge build/ your-domain-name.surge.sh
+    ``` 
+    
 ## Screenshots
 
 ![Screenshot](Screenshot_25-6-2024_23489_localhost.jpeg)
@@ -55,7 +69,7 @@ npm install
 ## Contributing
 Contributions are welcome! If you'd like to contribute to World Travel, please fork the repository and create a pull request with your proposed changes.
 
-## Technologies Used
+## Technologies
 React
 HTML5
 CSS3
