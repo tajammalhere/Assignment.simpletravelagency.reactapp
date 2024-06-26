@@ -64,7 +64,10 @@ npm install
     
 ## Screenshots
 
-![Screenshot](Screenshot_25-6-2024_23489_localhost.jpeg)
+![Screenshot](home.jpeg)
+
+
+![Screenshot](about.jpeg)
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to World Travel, please fork the repository and create a pull request with your proposed changes.
